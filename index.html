@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reCAPTCHA v2 验证</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 创建 reCAPTCHA 验证框 -->
+    <div class="g-recaptcha" data-sitekey="Your reCAPTCHA v2 Key" data-callback="onRecaptchaSuccess">
+    </div>
+
+    <!-- 加载 Google reCAPTCHA v2 API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
